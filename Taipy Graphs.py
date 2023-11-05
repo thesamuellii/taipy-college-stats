@@ -44,7 +44,7 @@ df = pd.DataFrame(columns = ["Name", selected_stat], copy = True)
 
 #App Creation
 college_stat_app = """<|{selected_stat}|selector|lov={list_stats}|on_change=modify_df|dropdown|>
-<|{df}|chart|x=Name|y=selected_stat|type=bar|title=Gameman|>"""
+<|{df}|chart|x=Name|y=selected_stat|type=bar|title=College Stats|>"""
 
 
 
